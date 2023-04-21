@@ -298,6 +298,14 @@ strong {
   text-transform: uppercase;
 }
 
+.footer-brand {
+  font-size: 20px;
+  line-height: 1.2rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--dark-color);
+  text-transform: uppercase;
+}
+
 .brand-logo {
   font-size: 38px;
 }
@@ -844,18 +852,23 @@ strong {
 /*---------------------------------------
   IFRAMES 
 -----------------------------------------*/
-
-.iframe-father{
-  display: flex;
-  justify-content:center;
-  align-items:center;
+.iframe-p{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top:10.25%; 
+  padding-bottom: 40.25%; 
 }
 
-.iframe{
-  height: 970px;
-  min-height:400px;
-  max-height: max-content;
 
+.iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 90%;
+  height: 140%;
 }
 
 
@@ -898,7 +911,7 @@ strong {
   .section-padding,
   .site-footer {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
   }
 
   .custom-btn {
