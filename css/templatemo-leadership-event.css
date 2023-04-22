@@ -143,35 +143,11 @@ strong {
 
 .avatar-image-left {
   position: relative;
-  left: -20px;
+ 
 }
 
-.avatar-image-left + .avatar-image-left {
-  left: -40px;
-}
 
-.avatar-image-left + .avatar-image-left + .avatar-image-left {
-  left: -60px;
-}
 
-.avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left {
-  left: -80px;
-}
-
-.avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left{
-  left: -100px;
-}
-
-.avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left{
-  left: -120px;
-}
-
-.avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left{
-  left: -130px;
-}
-.avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left {
-  left: -140px;
-}
 
 .avatar-info {
   display: inline-block;
@@ -505,7 +481,7 @@ strong {
 
 .hero .arrow-icon {
   position: relative;
-  top: 150px;
+  top: 140px;
 }
 
 .video-wrap {
@@ -934,6 +910,7 @@ strong {
 
   .nav-tabs .nav-link {
     width: 50%;
+    padding:  5px;
   }
 
   .copyright-text-wrap {

@@ -1,6 +1,6 @@
 
 
-var sectionArray = [1, 2, 3, 4, 5, 6,7];
+var sectionArray = [1, 2, 3, 4, 5, 6, 7];
 
 $.each(sectionArray, function(index, value){
           
@@ -9,6 +9,7 @@ $.each(sectionArray, function(index, value){
          var docScroll = $(document).scrollTop();
          var docScroll1 = docScroll + 1;
          
+        
         
          if ( docScroll1 >= offsetSection ){
              $('.navbar-nav .nav-item .nav-link').removeClass('active');
