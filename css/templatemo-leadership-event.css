@@ -571,8 +571,9 @@ strong {
   transition: all 1s;
 }
 
-.speakers-image {
-  width: 100%;
+.img-integrantes {
+  height: 250px;
+  overflow: hidden;
 }
 
 .speakers-text-info {
