@@ -156,6 +156,12 @@ strong {
   vertical-align: top;
 }
 
+/*LOGO*/
+
+.logo-cacau-show{
+  border-radius: 100%;
+}
+
 
 /*---------------------------------------
   ICONES CUSTOMIZADOS
@@ -496,6 +502,14 @@ strong {
   top: 90px;
   animation:anima-seta 2s ease infinite;
 
+}
+
+.return-top{
+  position:fixed;
+  bottom: 100px;
+  right: 70px;
+  transform: rotate(180deg); 
+  visibility: hidden;
 }
 
 .video-wrap {

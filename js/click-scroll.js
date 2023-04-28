@@ -35,3 +35,17 @@ $(document).ready(function(){
     $('.navbar-nav .nav-item .nav-link').eq(0).addClass('active');
     $('.navbar-nav .nav-item .nav-link:link').eq(0).removeClass('inactive');
 });
+
+
+//SETA DE VOLTAR AO TOPO
+
+const seta = document.querySelector(".return-top");
+
+window.addEventListener("scroll", (e)=>{
+    if(window.scrollY <= 5000){
+        seta.classList.remove("visible");
+    }else{
+        seta.classList.add("visible");
+
+    }
+})
