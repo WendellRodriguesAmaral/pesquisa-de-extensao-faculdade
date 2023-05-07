@@ -20,7 +20,7 @@ $('.if-2').click(function(e){
 $('.if-3').click(function(e){
     $('.d-3').html('')
     $('.d-3').html(
-        '<iframe class="iframe m-auto img-fluid"  src="https://lookerstudio.google.com/embed/reporting/d22c1d10-748d-4489-876b-560746cd4c0b/page/TWJND" ></iframe>'
+        '<iframe class="iframe m-auto img-fluid"  src="https://lookerstudio.google.com/embed/reporting/76f5580b-fb5d-49d2-bc74-999817fc8a56/page/7cVPD" ></iframe>'
 
     )
     $('.texto-iframe').html("texto analise 3");
