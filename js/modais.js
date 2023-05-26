@@ -28,3 +28,58 @@ function showModalAnalises(modal){
     $('.modal-title').html('Método/Processo');
     $('.texto-modal').html(textoModaisAnalises[modal]);
 }
+
+function showModalNuvemPalavras(){
+    $('.modal-title').html('Palavras mais repetidas.');
+    $('.texto-modal').html(`<div class="w-100 d-flex">
+        <div >
+            <b class="ps-5 m-0 text-center">Títulos</b>
+            <img class="img-fluid" src="./images/nuvem de palavras/titulo.jpeg" alt="">
+        </div>
+        <div >
+            <b class="ps-5 m-0">Descrição</b>
+            <img class="img-fluid" src="./images/nuvem de palavras/descricao.jpeg" alt="">
+        </div>
+    </div>`);
+   
+
+}
+
+
+
+function showModalConcorrente(){
+
+    $('.modal-title').html('Sobre o concorrente');
+    $('.texto-modal').html(`
+    <section class="about " >
+        <div class="container">
+            <div class="row"> 
+                
+                <div class="col-lg-7 col-12">
+
+                    <div class="col-lg-10 col-12">
+                        <h5 class="m-0">Principal</h5>
+                        <h2 class="mb-4">Concorrente:
+                            <u class="text-info">Kopenhagen</u>
+                        </h2>
+                    </div>
+
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi nemo neque rerum iste. Quasi blanditiis numquam, voluptas facere velit dolorum temporibus, rerum beatae id animi itaque cum sequi nesciunt possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse dolores quia maxime ad error nisi repellat natus aliquam, harum, sequi eius magnam reprehenderit provident laborum recusandae. Culpa incidunt rerum saepe.</p>
+
+                   
+                </div>
+
+                <div class="col-lg-5 col-12 mt-5 mt-lg-0 d-flex justify-content-center align-items-start">
+                        <figure>
+                            <img src="images/reputação concorrente/Screenshot.png"
+                            class="schedule-image img-fluid" alt="">
+                            <figcaption>Print tirado em 26/05/2023</figcaption>
+                        </figure>                
+                </div>        
+            </div>
+        </div>
+    </section>
+`);
+
+
+}

@@ -224,8 +224,10 @@
 
                         </div>
 
-                        <a class="custom-btn custom-border-btn btn custom-link mt-3 me-3" href="https://www.cacaushow.com.br/" target="_blank">Loja Cacau Show <i class="bi bi-box-arrow-up-right ms-2"></i></a>
+                        <a class="custom-btn custom-border-btn btn custom-link mt-3 me-3" onclick="showModalConcorrente()" data-bs-toggle="modal" data-bs-target="#modalSolucoes">Ver Concorrente </a>
 
+                        <a class="custom-btn custom-border-btn btn custom-link mt-3 me-3" href="https://www.cacaushow.com.br/" target="_blank">Loja Cacau Show <i class="bi bi-box-arrow-up-right ms-2"></i></a>
+                        
                         <a class="custom-btn btn custom-link mt-3" href="https://www.reclameaqui.com.br/empresa/cacau-show-loja-online/" target="_blank">Reclame aqui <i class="bi bi-box-arrow-up-right ms-2"></i>
                         </a>
                     </div>
@@ -321,7 +323,30 @@
             </div>
         </section>
 
-        
+
+
+        <section class="call-to-action section-padding p-5">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-7 col-12">
+                        <h2 class="text-white mb-4">Veja as palavras mais  <u class="text-info">repetidas.</u></h2>
+
+                        <p class="text-white">
+                            Clique no botão a seguir e veja uma nuvem de palavras demonstrando as mais repetidas nos títulos e descrições das reclamações.    
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-12 ms-lg-auto mt-4 mt-lg-0">
+                        <a onclick="showModalNuvemPalavras()" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#modalSolucoes">Ver nuvem de palavras</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
         <section class="schedule section-padding pb-0 pt-5" id="section_4">
             <div class="container">
                 <div class="row">
@@ -726,8 +751,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body pt-0">
-            <p class="texto-modal">
-               
+            <p class="texto-modal">        
             </p>
         </div>        
       </div>
