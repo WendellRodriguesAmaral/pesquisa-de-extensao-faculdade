@@ -49,7 +49,7 @@ function showModalNuvemPalavras(){
 
 function showModalConcorrente(){
 
-    $('.modal-title').html('Sobre o concorrente');
+    $('.modal-title').html('Sobre o concorrente ');
     $('.texto-modal').html(`
     <section class="about " >
         <div class="container">
@@ -65,8 +65,13 @@ function showModalConcorrente(){
                     </div>
 
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi nemo neque rerum iste. Quasi blanditiis numquam, voluptas facere velit dolorum temporibus, rerum beatae id animi itaque cum sequi nesciunt possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse dolores quia maxime ad error nisi repellat natus aliquam, harum, sequi eius magnam reprehenderit provident laborum recusandae. Culpa incidunt rerum saepe.</p>
-
+                    
                    
+
+                    <a class="custom-btn btn custom-link mt-3" href="https://www.reclameaqui.com.br/empresa/kopenhagen-loja-online/lista-reclamacoes/" target="_blank">
+                    Reclame aqui <i class="bi bi-box-arrow-up-right ms-2"></i>
+                        </a>
+
                 </div>
 
                 <div class="col-lg-5 col-12 mt-5 mt-lg-0 d-flex justify-content-center align-items-start">
