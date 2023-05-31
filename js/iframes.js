@@ -23,7 +23,7 @@ $('.if-3').click(function(e){
         '<iframe class="iframe m-auto img-fluid"  src="https://lookerstudio.google.com/embed/reporting/76f5580b-fb5d-49d2-bc74-999817fc8a56/page/7cVPD" ></iframe>'
 
     )
-    $('.texto-iframe').html("Aqui entrará o texto analise 3");
+    $('.texto-iframe').html("Analisando o gráfico acima é notável quais sãos os produtos alvos da maior quantidade de reclamações, sendo o principal deles 'Ovos de páscoa', acredita-se que por se tratar de uma empresa do ramo alimentício (doces) e ter como principal matéria prima o cacau, o chocolate se torna seu principal produto rentável.  \n Obviamente a época que mais vendem chocolate é na pascoa, que é exatamente onde está o foco do problema, os 'Ovos de Páscoa'. É possivel notar tambem que o 2º maior alvos de reclamações são os 'Panetones e Colombas', acredita-se que é devido a data festiva do natal onde é muito comum presentear doces e bolos.");
 
 })
 

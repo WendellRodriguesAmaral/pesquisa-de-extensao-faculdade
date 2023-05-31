@@ -1,6 +1,32 @@
 const textoModaisSolucoes = {
 
-    1: 'Aqui entra a solução proposta para o problema 1',
+    1: `<br>Como ja dito no resumo do problema encontrado, a maior concentração de reclamações está na Região Sudeste, mais específico no estado de São Paulo, e principalmente é grandes metrópoles como a cidade de São Paulo, Guarulhos, Campinas e outros. <br> 
+     Ao analisarmos em conjunto com o segundo gráfico notamos que o maior tipo de reclamação é por 'Produto não recebido' ou seja há um grande problema na logistica de entregas das compras dos clientes. <br> <br>
+     Possíveis soluções para este problema:
+     <ul>
+        <li> - <b>Aumento de centros de distruição das mercadorias a serem entregues, principalmente nas cidades com maior população.</b> <br>
+            <small style="margin-left:20px;"> > <i> Ex: Guarulhos possui 1.3 milhão de habitantes, se considerarmos que há entregas todos os dias, e levarmos em consideração os problemas de transporte, a chance de ocorrer algo com ate 90% das entregas é grande. </i></small>
+        </li>
+
+        <li> - <b>Implementação de um site/aplicativo próprio afim de dispor da localização em tempo real da mercadoria comprada.</b> <br>
+            <small style="margin-left:20px;"> > <i> Inúmeros e-commerces hoje ja possui um aplicativo de rastreamento em tempo real, essa prática entrega muito alem de uma experiência, mas sim a confiança do cliente e seriedade no transporte. </i></small>
+        </li>
+       
+        <li> - <b>Implementar ações de marketing para região específica.</b> <br>
+            <small style="margin-left:20px;"> > <i> É possivel implementar um algoritmo que obtenha a localização do cliente enquanto realiza a compra e ofereceR produtos/preços especiais, além de mostrar frases que citem o nome da cidade em questão. Ex:Compre agora e aproveite a promoção exclusica para 'NOME_DA_CIDADE' </i></small>
+        </li>
+
+        <li> - <b>Abertura de lojas e franqueados em localizações estratégicas.</b> <br>
+            <small style="margin-left:20px;"> > <i> É interessante o estudo geográfico da clientela e abertura e inauguração de lojas (que tambem podem funcionar como pontos de retirar de produtos comprados online) em pontos estratégicos afim de captar e reter seus clientes. Sem contar que passa a impressão que 'existe uma loja em cada esquina'. </i></small>
+        </li>
+
+        <li> - <b>Implementação de chats online em tempo real.</b> <br>
+            <small style="margin-left:20px;"> > <i> Seria interessante a criação de chats que respondessem em tempo real à clientes que estão aguardando suas compras. Ao enviar um e-mail de confirmação de compra, poderiam enviar um link para um chat que atendesse em horario comercial e respondesse ao que fosse necessario sobre a compra em questão, isso gera mais credibilidade e confiança na empresa. </i></small>
+        </li>
+     </ul>
+
+     <p>São Paulo é o estado brasileiro mais populoso e possui atualmente mais de 46 milhões de habitantes de acordo com o Censo Demográfico de 2022 divulgada pelo IBGE. Sabendo disso a Cacau Show não se pode dar ao luxo de perder tamanha clientela.</p>
+     `,
     2:'Aqui entra a solução proposta para o problema 2',
     3: 'Aqui entra a solução proposta para o problema 3'
 }
@@ -58,13 +84,17 @@ function showModalConcorrente(){
                 <div class="col-lg-7 col-12">
 
                     <div class="col-lg-10 col-12">
-                        <h5 class="m-0">Principal</h5>
+                    
                         <h2 class="mb-4">Concorrente:
                             <u class="text-info">Kopenhagen</u>
                         </h2>
                     </div>
 
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi nemo neque rerum iste. Quasi blanditiis numquam, voluptas facere velit dolorum temporibus, rerum beatae id animi itaque cum sequi nesciunt possimus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse dolores quia maxime ad error nisi repellat natus aliquam, harum, sequi eius magnam reprehenderit provident laborum recusandae. Culpa incidunt rerum saepe.</p>
+                    <p> 
+                    Fundada há 94 anos por um casal de imigrantes da Letônia, a Kopenhagen virou referência quando o assunto é chocolates e doces clássicos. Não por acaso, a primeira loja da marca foi aberta, em 1928, na Rua Oscar Freire, região nobre de São Paulo conhecida e lembrada por conter muitas lojas de luxo.
+                    Desde então, a rede se expandiu, principalmente, em regiões de classe média e alta, vendendo diversos doces como chocolates que são mais procurados em datas especiais como Natal e Páscoa.  
+                    Hoje é uma das principais (se não a principal) concorrentes da Cacau show, possuindo uma melhor avaliação no site do Reclame Aqui e tendo tambem consideravelmente menos reclamações, sem esquecer que a retorno por parte da empresa é mais rápido e eficiente.
+                    </p>
                     
                    
 
