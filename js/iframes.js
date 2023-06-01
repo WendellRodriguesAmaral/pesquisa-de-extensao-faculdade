@@ -4,7 +4,8 @@ $('.if-1').click(function(e){
         '<iframe class="iframe m-auto img-fluid"  src="https://lookerstudio.google.com/embed/reporting/a93727bb-09aa-4548-a911-a4dea7d66cca/page/NWmOD" ></iframe>'
 
     )
-    $('.texto-iframe').html("Aqui entrará o texto analise 1");
+    $('.texto-iframe').html(`Ao analisar o mapa acima, podemos enxergar que o maior indice de reclamações está na Região Sudeste, mais específico no estado de São Paulo. (Que é o estado mais populoso do Brasil) <br> 
+    É notáveleja há um grande problema na logistica de entregas das compras dos clientes, mas principalmente em grandes metrópoles, acreditamos que a logistica em centros urbanos é mais complexa e trabalhosa de se gerenciar. `);
 })
 
 $('.if-2').click(function(e){
@@ -13,7 +14,7 @@ $('.if-2').click(function(e){
         '<iframe class="iframe m-auto img-fluid"  src="https://lookerstudio.google.com/embed/reporting/0819fce8-0a0e-41c4-8510-44ad5c86fd9c/page/cemOD"" ></iframe>'
 
     )
-    $('.texto-iframe').html("Aqui entrará o texto analise 2");
+    $('.texto-iframe').html("Como podemos notar, uma das maiores reclamações feitas à CacauShow, se trata de produtos não entregues , onde os clientes fazem a aquisição do produto e posteriormente, o aguardo da chegada do mesmo. <br> E a menor reclamação registrada, seria o produto com defeito. Pode haver vários tipos de fatores que levam ao produto apresentar defeitos, dentre eles o fator humano. <br> Vamos entrar em detalhes ao propor uma solução logo abaixo. ");
 
 })
 

@@ -27,7 +27,35 @@ const textoModaisSolucoes = {
 
      <p>São Paulo é o estado brasileiro mais populoso e possui atualmente mais de 46 milhões de habitantes de acordo com o Censo Demográfico de 2022 divulgada pelo IBGE. Sabendo disso a Cacau Show não se pode dar ao luxo de perder tamanha clientela.</p>
      `,
-    2:'Aqui entra a solução proposta para o problema 2',
+
+    2:`<br>
+    Uma das maiores reclamações feitas à CacauShow, foi de produtos não recebidos.  Já a menor quantidade de reclamação registrada, foi de produto com defeito.
+    Baseando nisso, acreditamos que não haja minilojas, quiosques, franqueados ou até mesmo,um centro de distribuição em um raio de ação de no máximo 100km.
+    E pode existir inumeros tipos de fatores que levam ao produto apresentar defeitos: Defeito de fábrica, calor excessivo, embalagem não condicionada, condicionamento do produto abaixo
+    ou acima do normal. Pode haver também falha humana: negligência por parte do consumidor ou erro de compra, má fé dos funcionários ou despreparo dos entregadores.
+    <br> <br>
+    Possíveis soluções para este problema: <br><br>
+
+    <ul>
+        <li> - <b>A solução do produto com defeito, seria analisar o produto primeiramente. Fazer uma triagem do produto e verificar se houve falha por parte da empresa ou falha por parte do consumidor.
+        </b> <br>
+            <small style="margin-left:20px;"> > <i> Posteriormente, fazer uma tratativa com o(a) cliente, a respeito da politica de troca e
+            devolução. Pode ser uma devolução do dinheiro, pode ser dado ao cliente um voucher com o valor do produto avariado, ou a troca do outro produto pelo mesmo valor
+            ou poderia ser o mesmo produto, só que novo. </i></small>
+        </li>
+        <br>
+        <li> - <b>Outra solução proposta, seria montar minilojas no raio de 10 a 30km dependendo da localidade do estado ou cidade. </b> <br>          
+        </li>
+
+        <br>
+        <li> - <b>Montar uma modalidade de entregas pelo IFood nos raios de 10 a 30km dependendo da localidade do estado ou cidade.
+        </b> <br>          
+        </li>
+
+     </ul>
+    
+    `,
+
     3: 'Aqui entra a solução proposta para o problema 3'
 }
 
@@ -38,7 +66,15 @@ const textoModaisAnalises = {
     <div class="w-100 d-flex align-items-center justify-content-center">
         <img class="w-75 img-fluid rounded-3" src="./gifs/Gif robô em execução.gif" alt="GIF do robô em python rodando">
     </div>`,
-    2:'Aqui entra a analise da metodo 2',
+    2:` <br>No código de limpeza foi utilizada a biblioteca Pandas, que é uma das principais bibliotecas utilizadas para a manipulação de dados em Python. Ela oferece diversas ferramentas e estruturas de dados para lidar com informações tabulares, como tabelas e planilhas, além de possuir funcionalidades para lidar com dados de diferentes fontes, como arquivos CSV, que foi necessitado no projeto. Com ela foi possível fazer análises, transformações e visualizações de dados de forma eficiente e prática. Também foi importada a ferramenta NLTK (Natural Language Toolkit), que é uma ferramenta de processamento de linguagem natural amplamente utilizada em projetos que envolvem análise de textos. Ela oferece uma série de recursos para trabalhar com textos em diferentes níveis, como tokenização, análise sintática, lematização, entre outros. Além disso, a NLTK também possui um conjunto de stopwords, ou palavras comuns que geralmente não carregam significado relevante para a análise de textos, dessa forma foram removidas aquelas que não teriam utilização relevante. E por fim, com a biblioteca Regex (Regular Expressions), uma ferramenta muito útil para a formatação de cadeias de caracteres, foi possível definir  padrões de texto que puderam ser usados para buscar, substituir e manipular strings de forma simples, como foi o caso para substituir caracteres especiais para espaço vazio.<br>                   
+                
+    </p>
+    <div class="w-100 d-flex justify-content-around flex-wrap p-5 imagens-metodos">
+        <img class="w-25 img-fluid" src="./images/metodos/NLTK.png" alt="">
+        <img class="img-fluid bg-black w-50"  src="./images/metodos/pandas.svg" alt="">
+    </div>
+
+    `,
     3: 'Aqui entra a analise da metodo 3'
 }
 

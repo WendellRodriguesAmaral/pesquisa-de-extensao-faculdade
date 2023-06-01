@@ -960,6 +960,13 @@ ul > li > .social-icon-link{
   .copyright-text-wrap {
     margin-top: 20px;
   }
+
+  .imagens-metodos > img:first-child{
+    display: none;
+  }
+  .imagens-metodos > img:nth-child(2){
+    width: 100%!important;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1062,4 +1069,8 @@ figcaption {
   font: normal smaller sans-serif;
   padding: 3px;
   text-align: center;
+}
+
+.imagens-metodos > img{
+  height: 230px;
 }
