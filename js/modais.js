@@ -170,12 +170,62 @@ const conteudoGraficoTSNE = {
     <div class="w-100 d-flex justify-content-center align-items-center">
         <img class="img-fluid w-75 mt-5 mb-5" src="./images/grafico t-sne/cluster 0.jpeg" alt="">
     </div>`,
-    1:``,
-    2:``,
-    3:``,
-    4:``,
-    5:``,
-    6:``,
+
+    1:`<br>
+    <h6>Reclamações sobre o resgate de benefícios(voucher, pontos) do programa cacau lovers.  </h6>
+       
+    <p>Após análise da nuvem de palavras e das reclamações agrupadas nesse cluster, concluímos que um dos principais assuntos era relativo a problemas no resgate de benefícios como voucher e pontos obtidos no programa "Cacau Lovers", devido as repetições de palavras como: resgatar, valor, cacau, lover, voucher, ponto.</p>
+
+    <div class="w-100 d-flex justify-content-center align-items-center">
+        <img class="img-fluid w-75 mt-5 mb-5" src="./images/grafico t-sne/cluster 1.jpeg" alt="">
+    </div>`,
+
+    2:`
+    <br>
+    <h6>Reclamações sobre produtos entregues em condições ruins(derretidos, mofados...)     </h6>
+       
+    <p>Após análise da nuvem de palavras e das reclamações agrupadas nesse cluster, concluímos que um dos principais assuntos era relativo a condições de entrega dos produtos comprados pela internet, devido as repetições de palavras como: condições, entrega, derretido, mofo, recebi.</p>
+
+    <div class="w-100 d-flex justify-content-center align-items-center">
+        <img class="img-fluid w-75 mt-5 mb-5" src="./images/grafico t-sne/cluster 2.jpeg" alt="">
+    </div>`,
+
+    3:`<br>
+    <h6> Reclamações sobre atendimento no SAC ou nas lojas.  </h6>
+       
+    <p>Após análise da nuvem de palavras e das reclamações agrupadas nesse cluster, concluímos que um dos principais assuntos era relativo ao atendimento em lojas físicas ou via SAC, devido as repetições de palavras como: loja, atendimento, sac, site.</p>
+
+    <div class="w-100 d-flex justify-content-center align-items-center">
+        <img class="img-fluid w-75 mt-5 mb-5" src="./images/grafico t-sne/cluster 3.jpeg" alt="">
+    </div>`,
+
+    4:`<br>
+    <h6>Reclamações sobre experiências ruins ao comprar pelo site ou loja física. 
+    </h6>
+       
+    <p>Após análise da nuvem de palavras e das reclamações agrupadas nesse cluster, concluímos que um dos principais assuntos era relativo a experiência de compra, devido as repetições de palavras como: compra, produto, site, loja, atendimento, problema.</p>
+
+    <div class="w-100 d-flex justify-content-center align-items-center">
+        <img class="img-fluid w-75 mt-5 mb-5" src="./images/grafico t-sne/cluster 4.jpeg" alt="">
+    </div>`,
+
+    5:`<br>
+    <h6>Reclamações sobre atraso na entrega de produtos.   </h6>
+       
+    <p>Após análise da nuvem de palavras e das reclamações agrupadas nesse cluster, concluímos que um dos principais assuntos era relativo a atrasos na entrega de produtos, devido as repetições de palavras como: pedido, compra, entrega, entregue,  não, recebi.</p>
+
+    <div class="w-100 d-flex justify-content-center align-items-center">
+        <img class="img-fluid w-75 mt-5 mb-5" src="./images/grafico t-sne/cluster 5.jpeg" alt="">
+    </div>`,
+
+    6:`<br>
+    <h6> Reclamações sobre problemas de cadastro no programa cacau lovers.  </h6>
+       
+    <p>Após análise da nuvem de palavras e das reclamações agrupadas nesse cluster, concluímos que um dos principais assuntos era relativo ao cadastro e acesso ao programa "cacau lovers", devido as repetições de palavras como: cacau, lover, senha, email, site, cpf, clico.</p>
+
+    <div class="w-100 d-flex justify-content-center align-items-center">
+        <img class="img-fluid w-75 mt-5 mb-5" src="./images/grafico t-sne/cluster 6.jpeg" alt="">
+    </div>`,
 }
 
 function showModalNuvemPalavrasTSNE(cluster){
