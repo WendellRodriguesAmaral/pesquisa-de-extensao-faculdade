@@ -292,7 +292,7 @@
 
                             </div>
                             <div class="pricing-title-wrap d-flex align-items-center">
-                                <h4 class="pricing-title text-white mb-0">Método X</h4>                               
+                                <h4 class="pricing-title text-white mb-0">Limpeza dos dados</h4>                               
                             </div>
                         </div>
                     </div>
@@ -304,17 +304,17 @@
 
                             <div class="pricing-body">
                                 <p>
-                                    <b> Método: </b> Lorem ipsum dolor sit amet consectetur adipisicing
+                                    <b> Método: </b> Técnicas de agrupamento e visualização de dados
                                 </p>
 
                                 <a onclick="showModalAnalises(3)" class="custom-btn mt-3 " type="button" data-bs-toggle="modal" data-bs-target="#modalSolucoes" >Detalhes</a>
                                 <div class="border-bottom pb-3 mb-4"></div>
                                 
-                                <p><i class="bi-chat-square me-2"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ex, iste iusto numquam culpa ducimus in eius dolorum non blanditiis nam odit nemo mollitia vitae, officiis unde laudantium, pariatur quisquam!</p>
+                                <p><i class="bi-chat-square me-2"></i>Foi desenvolvido um script em Python que através do algoritmo <i><b> Kmeans </b></i>, que é um algoritmo de clusterização. Ele funciona de forma não supervisionada (não precisa de inputs de confirmação) e avalia e agrupa os dados de acordo com suas características.</p>
 
                             </div>
                             <div class="pricing-title-wrap d-flex align-items-center">
-                                <h4 class="pricing-title text-white mb-0">Método X</h4>                               
+                                <h4 class="pricing-title text-white mb-0">Visualização dos dados</h4>                               
                             </div>
                         </div>
                     </div>
@@ -347,7 +347,58 @@
 
 
 
-        <section class="schedule section-padding pb-0 pt-5" id="section_4">
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="pricing section-padding pt-1 pb-0" id="kmeans">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-10 col-12 text-center mx-auto mt-5  ">
+                        <h2>Gráfico<u class="text-info"> T-SNE</u> </h2>
+                    </div>
+
+                    <div class="col-lg-10 col-12 text-center mx-auto mt-6 mb-5 ">
+                        <img class="img-fluid" src="./images/grafico t-sne/T-SNE.jpeg" alt="">
+                    </div>
+
+                    <small class="d-block text-center"> <i> Clique para ver as nuvens de palavras de cada Cluster</i></small> <br><br>
+                    <div class="d-flex justify-content-center mb-5">
+                        <a onclick="showModalNuvemPalavrasTSNE(0)" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#modalSolucoes">Cluster 0</a>
+                        <a onclick="showModalNuvemPalavrasTSNE(1)" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#modalSolucoes">Cluster 1</a>
+                        <a onclick="showModalNuvemPalavrasTSNE(2)" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#modalSolucoes">Cluster 2</a>
+                        <a onclick="showModalNuvemPalavrasTSNE(3)" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#modalSolucoes">Cluster 3</a>
+                        <a onclick="showModalNuvemPalavrasTSNE(4)" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#modalSolucoes">Cluster 4</a>
+                        <a onclick="showModalNuvemPalavrasTSNE(5)" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#modalSolucoes">Cluster 5</a>
+                        <a onclick="showModalNuvemPalavrasTSNE(6)" class="custom-btn btn" data-bs-toggle="modal" data-bs-target="#modalSolucoes">Cluster 6</a>
+                    </div>                       
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="schedule section-padding pb-0 pt-0 mt-3" id="section_4">
             <div class="container">
                 <div class="row">
 
@@ -355,7 +406,7 @@
                         <h2 class="mb-5">Análises  <u class="text-info">realizadas</u></h2>
 
                         <nav>
-                            <div class="nav nav-tabs align-items-baseline" id="nav-tab" role="tablist">
+                            <div class=" nav nav-tabs align-items-baseline" id="nav-tab" role="tablist">
                                 <button class="nav-link active if-1" id="nav-DayOne-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-DayOne" type="button" role="tab" aria-controls="nav-DayOne"
                                     aria-selected="true">
@@ -422,6 +473,15 @@
                         <p class="texto-iframe">Ao analisar o mapa acima, podemos enxergar que o maior indice de reclamações está na Região Sudeste, mais específico no estado de São Paulo. (Que é o estado mais populoso do Brasil) <br> 
                             É notáveleja há um grande problema na logistica de entregas das compras dos clientes, mas principalmente em grandes metrópoles, acreditamos que a logistica em centros urbanos é mais complexa e trabalhosa de se gerenciar. </p>
                     </div>
+
+                    
+
+
+
+
+
+
+
 
                 </div>
             </div>
@@ -705,6 +765,9 @@
 
     </main>
 
+
+  
+  
   
     <a href="#inicio" class="custom-link bi-arrow-down arrow-icon return-top"></a>
   
@@ -747,7 +810,7 @@
 
 
 <!-- Modal -->
-<div class="modal fade " id="modalSolucoes" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade " id="modalSolucoes"  data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog  modal-dialog-centered modal-xl">
       <div class="modal-content">
         <div class="modal-header">

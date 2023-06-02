@@ -75,9 +75,15 @@ const textoModaisAnalises = {
     </div>
 
     `,
-    3: 'Aqui entra a analise da metodo 3'
+    3: `<br>Foi desenvolvido um script em Python que através do algoritmo Kmeans, separou as reclamações em grupos através da sua técnica de aprendizado não supervisionado. Posteriormente utilizamos algumas bibliotecas para plotar um gráfico T-SNE que mostra de forma simples os grupos definidos anteriormente. Além disso, também utilizando Python, criamos nuvens de palavras com as palavras mais repetidas em cada um dos grupos, permitindo a criação de vários insights sobre os assuntos mais abordados nas reclamações encontradas.
+        <br>
+     <a class="m-0 custom-btn mt-3 click-scroll btn ver-grafico" href="#kmeans" onclick="fecharModal()">Ver Gráfico</a>`
 }
 
+
+function fecharModal(){
+    $('.btn-close').click()
+}
 
 function showModal(modal){
     
@@ -92,7 +98,7 @@ function showModalAnalises(modal){
 }
 
 function showModalNuvemPalavras(){
-    $('.modal-title').html('Palavras mais repetidas.');
+    $('.modal-title').html('Palavras mais repetidas dentre todas as reclamações.');
     $('.texto-modal').html(`<div class="w-100 d-flex">
         <div >
             <b class="ps-5 m-0 text-center">Títulos</b>
@@ -151,6 +157,28 @@ function showModalConcorrente(){
         </div>
     </section>
 `);
+}
 
 
+
+const conteudoGraficoTSNE = {
+    0:`<br>
+    <h6>Reclamações sobre ovos de páscoa com o produto "ursinhos carinhosos" </h6>
+       
+    <p>Após análise da nuvem de palavras e das reclamações agrupadas nesse cluster, concluímos que um dos principais assuntos era relativo a compras no período da pascoa, com destaque para o ovo de pascoa com o tema "ursinhos carinhosos".</p>
+
+    <div class="w-100 d-flex justify-content-center align-items-center">
+        <img class="img-fluid w-75 mt-5 mb-5" src="./images/grafico t-sne/cluster 0.jpeg" alt="">
+    </div>`,
+    1:``,
+    2:``,
+    3:``,
+    4:``,
+    5:``,
+    6:``,
+}
+
+function showModalNuvemPalavrasTSNE(cluster){
+    $('.modal-title').html('Cluster ' + cluster);
+    $('.texto-modal').html(conteudoGraficoTSNE[cluster]);
 }
