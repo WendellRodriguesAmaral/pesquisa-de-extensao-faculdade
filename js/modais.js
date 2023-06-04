@@ -56,7 +56,25 @@ const textoModaisSolucoes = {
     
     `,
 
-    3: 'Aqui entra a solução proposta para o problema 3'
+    3: `<br>
+    Nos meses de out/nov 2022, o indice de reclamações subiu de 63 reclamações para 798.
+Isto, se deve ao fato de haver bastante demanada em relação a data. posteriormente, uma das razões seria a compra em loja fisica ou 
+online de panetones, ou kits de natal com chocolate. houve também uma sobrecarga nas demandas em lojas online. consequentemente, há pessoas 
+que moram perto dos estabelecimentos ou centros de distribuições, sendo assim, a compra feita online e sendo retirada presencialmente.
+por fim.
+Fazendo um contraste com o grafico    pode se notar que o maior tipo de reclamação foi por produto não recebido.
+    <br> <br>
+    Possíveis soluções para este problema: <br><br>
+
+    <ul>
+        <li>- <b> Aumento de estoque de produtos em épocas comemorativas com pascoa e natal   </b> <br>
+            <small style="margin-left:20px;"> > <i>O aumento de estoque traria mais segurança na produção dos produtos e menos perigo de faltar.  </i></small>
+        </li>
+        <br>
+        <li> - <b>Aumento de funcionários temporários nas datas em questão. </b> <br>      
+        <small style="margin-left:20px;"> > <i>É notável os problemas em datas especiais, seria interessante o aumento de mão de obra sabendo do aumento significativo de demanda, poderiam contratar pessoas apenas para tal periodo.  </i></small>
+        </li>
+    </ul>`
 }
 
 const textoModaisAnalises = {

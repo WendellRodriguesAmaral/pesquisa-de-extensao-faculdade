@@ -34,5 +34,10 @@ $('.if-4').click(function(e){
         '<iframe class="iframe m-auto img-fluid"  src="https://lookerstudio.google.com/embed/reporting/e989f15a-6d57-4afe-b836-3c239b13617d/page/bfVPD" ></iframe>'
 
         )
-        $('.texto-iframe').html("Aqui entrará o texto analise 4");
+        $('.texto-iframe').html(`Nos meses de out/nov 2022, a empresa manteve o minimo possivel. todavia, o indice de reclamações subiu de 63 reclamações para 798.
+        nisto, se deve ao fato de haver bastante demanada em relação a data. posteriormente, uma das razões seria a compra em loja fisica ou 
+        online de panetones, ou kits de natal com chocolate. houve também uma sobrecarga nas demandas em lojas online. consequentemente, há pessoas 
+        que moram perto dos estabelecimentos ou centros de distribuições, sendo assim, a compra feita online e sendo retirada presencialmente.
+        por fim. houve uma insuficiência devido a alta demanda e pouco produto, podendo resumir a alta de reclamações.
+        `);
 })
