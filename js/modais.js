@@ -247,6 +247,6 @@ const conteudoGraficoTSNE = {
 }
 
 function showModalNuvemPalavrasTSNE(cluster){
-    $('.modal-title').html('Cluster ' + cluster);
+    $('.modal-title').html('Cluster ' + (cluster+1));
     $('.texto-modal').html(conteudoGraficoTSNE[cluster]);
 }
